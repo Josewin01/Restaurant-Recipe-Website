@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+span{
+    color: #ff8800;
+}
+h1, h2, h3, h4{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.8rem;
+}
+p{
+    line-height: 1.4rem;
+    opacity: 75%;
+    margin-bottom: 1rem;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    margin: 1rem;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #ff8800;
+}
+
+button{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    font-size: .9rem;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: .3s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 4px 15px rgba(58, 58, 58, .2);
+}
+
+/* HERO SRCTION STARTS */
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.hero-text{
+    width: 500px;
+}
+
+.hero-text h1{
+    font-size: 2.5rem;
+}
+.hero-text h1 span{
+    color: #ff8800;
+}
+.hero-section img{
+    width: 450px;
+    height: 350px;
+}
+
+/* HERO SECTION ENDS */
+
+
+
+/* RECIPE SECTION START */
+
+
+.recipes{
+    background-color: rgba(255, 136, 0, .06);
+    height: 100vh;
+    align-content: center;
+    /* text-align: center; */
+    padding: 3rem 0;
+}
+
+.recipes-text{
+    text-align: center;
+}
+
+.recipes-text p{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.recipe-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    /* background-color: rgba(255, 136, 0, .06) ; */
+}
+.recipe-card{
+    width: 20%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: .5rem 0rem;
+    border: 1px solid rgba(58, 58, 58, .2);
+    transition: .2s ease;
+}
+
+.recipe-card:hover{
+    box-shadow: 4px 10px 10px rgba(58, 58, 58, .2);
+}
+.recipe-card-img{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 180px;
+}
+
+.recipe-card-img img{
+    width: 100%;
+    border-radius: 7.5px;
+    height: 100%;
+}
+
+.recipe-card .btn{
+    background-color: #fff;
+    color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+    width: 100%;
+    transition: .2s ease;
+}
+
+.recipe-card .btn:hover{
+    background-color: #ff8800;
+    border: transparent;
+    color: #fff;
+}
+
+/* RECIPE SECTION ENDS */
+
+
+
+/* EXPLORE SECTION STARTS */
+
+.explore{
+    height: 100vh;
+    padding:3rem;
+
+}
+
+.explore-texts{
+    text-align: center;
+}
+.explore-texts p{
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.explore-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.explore-card{
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.explore-card img{
+    width: 100%;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.explore-card-text{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.9));
+    border-radius: 10px;
+    /* display: none; */
+    opacity: 0;
+    transition: .2s ease-in;
+    /* cursor: pointer; */
+    cursor: pointer;
+}
+.explore-card-text:hover{
+    /* display: block; */
+    opacity: 1;
+}
+.explore-card-text h2{
+    margin: 88% 0 0 .5rem;
+    font-size: .9rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.explore-nav{
+    display: flex;
+    justify-content: center;
+}
+    
+
+.explore-nav i{
+    font-size: 2.5rem;
+    color: #707070;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.explore-nav i:hover{
+    color: #ff8800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
